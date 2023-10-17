@@ -1,5 +1,5 @@
-class Math_question
-  attr_reader
+class MathQuestion
+  attr_reader :num1, :num2
 
   def initialize
     generate_question
@@ -13,5 +13,5 @@ class Math_question
   def check_answer(answer)
     answer.to_i  == @num1 + @num2
   end
-  
+
 end
